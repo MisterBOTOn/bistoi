@@ -74,7 +74,7 @@ client.on('message', msg => {
   });
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'misterbot-area');
+    let channel = member.guild.channels.find('name', '🙋𝖂elcome-𝕲oodbye🙅');
     let memberavatar = member.user.avatarURL
         if (!channel) return;
         let embed = new Discord.RichEmbed()
