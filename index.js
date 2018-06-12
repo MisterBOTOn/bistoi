@@ -35,7 +35,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === '!!invite') {
-      msg.channel.send('Invite **** https://discordapp.com/api/oauth2/authorize?client_id=455810114679734272&permissions=8&scope=bot**  :tada:');
+      msg.channel.send('Invite **** https://discordapp.com/oauth2/authorize?client_id=456089054795268107&permissions=8&scope=bot**  :tada:');
     }
   });
 
