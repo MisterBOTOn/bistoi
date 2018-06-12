@@ -47,22 +47,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === '!!info') {
-      msg.channel.send('▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬
-:arrow_down:                      DESPRE NOI:                      :arrow_down:
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
-:hammer_pick:️ Staff responsabil si de treaba :hammer_pick:
-:busts_in_silhouette: Staff si membrii activi :busts_in_silhouette:
-:performing_arts: O gramadada de role-uri :performing_arts:
-:tada:O sa facem giveaways  :tada: 
-:sunglasses: O gramada de emoji-uri :sunglasses:
-:shield: Este unul dintre cele mai sigure servere din romania
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-:small_blue_diamond: Peste 200 membri
-:small_orange_diamond: Server ul a fost facut acum ceva timp
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-De ce inca citesti asta?
-Intra acum!
-:fire:  AVEM NEVOIE DE TINE :fire: :crown: https://discord.gg/yKrUK8w :crown:'); 
+      msg.channel.send(' :crown: https://discord.gg/yKrUK8w :crown:'); 
     }
   });
 
