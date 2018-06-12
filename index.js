@@ -62,8 +62,7 @@ client.on('message', msg => {
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 De ce inca citesti asta?
 Intra acum!
-:fire:  AVEM NEVOIE DE TINE :fire:
-:crown: https://discord.gg/yKrUK8w :crown:'); 
+:fire:  AVEM NEVOIE DE TINE :fire: :crown: https://discord.gg/yKrUK8w :crown:'); 
     }
   });
 
