@@ -41,7 +41,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === '!!support') {
-      msg.channel.send('https://discord.gg/rB2822H @everyone');
+      msg.channel.send('https://discord.gg/DkrDqDQ');
     }
   });
 
