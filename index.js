@@ -136,7 +136,7 @@ member.send(reason)
 message.delete() }})}}} });
 
 client.on('message', msg => {
-    if (msg.content === '*invite') {
+    if (msg.content === 'e!invite') {
       msg.channel.send('Invite **EliteBOT** https://discordapp.com/api/oauth2/authorize?client_id=459730941347102722&permissions=8&scope=bot  :tada:');
     }
   });
