@@ -27,7 +27,7 @@ client.on('message', message =>{
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> *
 BOT COMMANDS
-• || *support || *info || *say || *ping || *serverinfo || *restart || *purge || *invite || *botinfo || `)
+• || *mass || *support || *info || *say || *ping || *serverinfo || *restart || *purge || *invite || *botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
@@ -97,7 +97,7 @@ if (message.content.startsWith(prefix + 'botinfo')) {
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
   embed.addField('ID', '456469970600198155', true)
   embed.addField('Made with:', 'Node')
-  embed.addField('Creator', '@[Elite] Unknown Player#0001 & @🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000', true)
+  embed.addField('Creator', 'Unknoun & zZstefan', true)
   embed.setColor('RANDOM')
   embed.setThumbnail(message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -123,8 +123,8 @@ client.on('message', message =>{
    
   client.on('message', message => {    
     if(message.content.startsWith('*mass')) {
-    if(message.author.id === "405337137735663618" ||
-message.author.id === "405337137735663618"){
+    if(message.author.id === "320887181516210177" ||
+message.author.id === "320887181516210177"){
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
@@ -142,14 +142,14 @@ client.on('message', msg => {
   });
 
 client.on('message', msg => {
-    if (msg.content === '*support') {
-      msg.channel.send('**Support server ---> https://discord.gg/wYPuHH7');
+    if (msg.content === 'm?support') {
+      msg.channel.send('support server ---> https://discord.gg/MXQNgGP');
     }
   });
 
 client.on('message', msg => {
-    if (msg.content === '*info') {
-      msg.channel.send('creatorul meu este : @[Elite] Unknown Player#0001 & @🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000');
+    if (msg.content === 'm?info') {
+      msg.channel.send('creatorul meu este : Unknown & zZstefan');
     }
   });
 
