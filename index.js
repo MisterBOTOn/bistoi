@@ -36,7 +36,7 @@ BOT COMMANDS
 
 client.on('message', message => {
     if (message.author.id == '419472407816830986') {
-    if (message.content.startsWith(`m?restart`)) {
+    if (message.content.startsWith(`*restart`)) {
             resetBot(message.channel);
     }
   }
@@ -91,13 +91,13 @@ client.on('message', message =>{
 if (message.content.startsWith(prefix + 'botinfo')) {
   const embed = new Discord.RichEmbed()
   embed.addField('BOT INFO')
-  embed.addField('Name', 'MisterBOT', true)
-  embed.addField('Prefix', 'm?', true)
+  embed.addField('Name', 'EliteBOT', true)
+  embed.addField('Prefix', '*', true)
   embed.addField('Tag:', '6777', true)
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
   embed.addField('ID', '456469970600198155', true)
   embed.addField('Made with:', 'Node')
-  embed.addField('Creator', '@🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000', true)
+  embed.addField('Creator', '@[Elite] Unknown Player#0001 & @🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000', true)
   embed.setColor('RANDOM')
   embed.setThumbnail(message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -137,7 +137,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === '*invite') {
-      msg.channel.send('Invite **EliteBOT** https://discordapp.com/api/oauth2/authorize?client_id=456089054795268107&permissions=8&scope=bot  :tada:');
+      msg.channel.send('Invite **EliteBOT** https://discordapp.com/api/oauth2/authorize?client_id=459730941347102722&permissions=8&scope=bot  :tada:');
     }
   });
 
@@ -149,7 +149,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === '*info') {
-      msg.channel.send('creatorul meu este : @🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000 ');
+      msg.channel.send('creatorul meu este : @[Elite] Unknown Player#0001 & @🔥𝔃𝓩𝓼𝓽𝓮𝓯𝓪𝓷🔥︻芫══一#1000');
     }
   });
 
