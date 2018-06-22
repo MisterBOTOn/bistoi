@@ -1,9 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "*"
+const prefix = "e!"
 
 client.on('ready', () => {
-  client.user.setGame('*help ', 'https://www.twitch.tv/zzstefanro321')
+  client.user.setGame('e!help ', 'https://www.twitch.tv/zzstefanro321')
 })   
 
   client.on('message', message =>{
@@ -25,9 +25,9 @@ client.on('message', message =>{
   if ( message.content.startsWith(prefix+ "help")) {
     const embed = new Discord.RichEmbed()
     .setTitle('BOT INFO')
-    .setDescription(`•prefix --> *
+    .setDescription(`•prefix --> e!
 BOT COMMANDS
-• || *mass || *support || *info || *say || *ping || *serverinfo || *restart || *purge || *invite || *botinfo || `)
+• || e!mass || e!support || e!info || e!say || e!ping || e!serverinfo || e!restart || e!purge || e!invite || e!botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
@@ -36,7 +36,7 @@ BOT COMMANDS
 
 client.on('message', message => {
     if (message.author.id == '419472407816830986') {
-    if (message.content.startsWith(`*restart`)) {
+    if (message.content.startsWith(`e!restart`)) {
             resetBot(message.channel);
     }
   }
@@ -92,7 +92,7 @@ if (message.content.startsWith(prefix + 'botinfo')) {
   const embed = new Discord.RichEmbed()
   embed.addField('BOT INFO')
   embed.addField('Name', 'EliteBOT', true)
-  embed.addField('Prefix', '*', true)
+  embed.addField('Prefix', 'e!', true)
   embed.addField('Tag:', '6777', true)
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
   embed.addField('ID', '456469970600198155', true)
@@ -122,7 +122,7 @@ client.on('message', message =>{
 });  
    
   client.on('message', message => {    
-    if(message.content.startsWith('*mass')) {
+    if(message.content.startsWith('e!mass')) {
     if(message.author.id === "405337137735663618" ||
 message.author.id === "405337137735663618"){
        let args = message.content.split(" ").slice(1);         
@@ -142,13 +142,13 @@ client.on('message', msg => {
   });
 
 client.on('message', msg => {
-    if (msg.content === 'm?support') {
+    if (msg.content === 'e!support') {
       msg.channel.send('support server ---> https://discord.gg/MXQNgGP');
     }
   });
 
 client.on('message', msg => {
-    if (msg.content === '*info') {
+    if (msg.content === 'e!info') {
       msg.channel.send('creatorul meu este : Unknown & zZstefan');
     }
   });
