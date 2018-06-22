@@ -123,8 +123,8 @@ client.on('message', message =>{
    
   client.on('message', message => {    
     if(message.content.startsWith('*mass')) {
-    if(message.author.id === "320887181516210177" ||
-message.author.id === "320887181516210177"){
+    if(message.author.id === "405337137735663618" ||
+message.author.id === "405337137735663618"){
        let args = message.content.split(" ").slice(1);         
        var argresult = args.join(" ")      
 const argsresult = args.join(" ")         
@@ -148,7 +148,7 @@ client.on('message', msg => {
   });
 
 client.on('message', msg => {
-    if (msg.content === 'm?info') {
+    if (msg.content === '*info') {
       msg.channel.send('creatorul meu este : Unknown & zZstefan');
     }
   });
