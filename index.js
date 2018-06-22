@@ -27,7 +27,7 @@ client.on('message', message =>{
     .setTitle('BOT INFO')
     .setDescription(`•prefix --> e!
 BOT COMMANDS
-• || e!mass || e!support || e!info || e!say || e!ping || e!serverinfo || e!restart || e!purge || e!invite || e!botinfo || `)
+• || e!mass || e!support || e!info || e!say || e!ping || e!serverinfo || e!restart || e!invite || e!botinfo || `)
     .setColor('RANDOM')
    message.channel.sendEmbed(embed);
   }
@@ -143,7 +143,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'e!support') {
-      msg.channel.send('support server ---> https://discord.gg/MXQNgGP');
+      msg.channel.send('support server ---> https://discord.gg/r5NgFGZ');
     }
   });
 
