@@ -163,7 +163,7 @@ client.on('guildMemberAdd', member => {
         .setColor('#FF000')
         .setThumbnail(memberavatar)
         .addField('✘ | Name: ', `${member}`)
-        .addField('✘ | Welcome', `**Bine ai venit pe server Speram sa te distrezi alaturi de noi. Si nu uita sa citesti :beginner:𝕽ules:beginner:-ul**`)
+        .addField('✘ | Welcome', `**Bine ai venit pe server-ul [E.W] Elite Warriors™. Speram sa te distrezi alaturi de noi. Si nu uita sa citesti :beginner:𝕽ules:beginner:-ul**`)
         .setTimestamp()
 
         channel.sendEmbed(embed);
