@@ -149,7 +149,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
     if (msg.content === 'l!info') {
-      msg.channel.send('My creator is zZstefan if you want to watch on YouTube Here`s a link: ** https: //www.youtube.com/channel/UCe3cJzGyLmIvqp0fj5PHwew? View_as = subscriber **');
+      msg.channel.send('**My creator is zZstefan if you want to watch on YouTube Here`s a link:** ** https://www.youtube.com/channel/UCe3cJzGyLmIvqp0fj5PHwew?view_as=subscriber **');
     }
   });
 
